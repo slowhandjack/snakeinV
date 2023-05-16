@@ -31,7 +31,7 @@ Eat the food represented by * to grow longer.
 
 Avoid running into the walls or your own body.
 
-The game lasts for 30 rounds.
+The game lasts for 30 rounds by default.
 
 Your final score will be displayed at the end of the game.
 
