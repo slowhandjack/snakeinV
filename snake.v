@@ -9,18 +9,19 @@ fn main() {
 	mut screenz := []string{}
 	mut pos_history := []u8{}
 	mut snakelen := u8(0)
+	rounds := u8(30)
 
 	for i in 0 .. 63 {
-		screenz << ' ' // The << is to append the latter to the former.
+		screenz << ' ' 
 	}
 	
-	for i in 0 .. 30 {
+	for i in 0 .. rounds {
 			os.system('clear') // Clears Terminal Screen
 			if pos == food {
 			snakelen += 1
 			points += 10
 			food = rand.int_in_range(0, 63)?
-			//os.system('afplay /System/Library/Sounds/Funk.aiff')
+			
 			}
 			screenz[pos] = '0'
 			pos_history.reverse_in_place()
