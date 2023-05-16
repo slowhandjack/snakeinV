@@ -19,7 +19,7 @@ Build the game:
 v .
 
 Run the game:
-./snake_terminal_game
+./snake
 
 Use the following keys to control the snake's movement:
        L: Move snake left
