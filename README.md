@@ -40,11 +40,7 @@ Configuration
 You can configure certain aspects of the game by modifying the following variables in the snake.v file:
 
    snakelen: The initial length of the snake.
-   GAME_WIDTH: The width of the game board.
-   GAME_HEIGHT: The height of the game board.
    points: The initial score of the player.
-   
-   
    
    
 Enjoy!
